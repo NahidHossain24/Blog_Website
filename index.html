@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Nahid website</title>
+		
+		
+		
+		<link rel="stylesheet" href="css/nivo-slider.css" type="text/css" media="screen" />
+		<link rel="stylesheet" href="style.css"/>
+		<link rel="stylesheet" href="font-awesome-4.6.3/css/font-awesome.css"/>
+		
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js" type="text/javascript"></script>
+		<script src="js/jquery.nivo.slider.js" type="text/javascript"></script>
+
+		<script type="text/javascript">
+		$(window).load(function() {
+			$('#slider').nivoSlider({
+				effect:'random',
+				slices:10,
+				animSpeed:500,
+				pauseTime:2200,
+				startSlide:0, //Set starting Slide (0 index)
+				directionNav:false,
+				directionNavHide:false, //Only show on hover
+				controlNav:false, //1,2,3...
+				controlNavThumbs:false, //Use thumbnails for Control Nav
+				pauseOnHover:true, //Stop animation while hovering
+				manualAdvance:false, //Force manual transitions
+				captionOpacity:0.8, //Universal caption opacity
+				beforeChange: function(){},
+				afterChange: function(){},
+				slideshowEnd: function(){} //Triggers after all slides have been shown
+			});
+		});
+		</script>
+		
+		
+	
+	</head>
+	<body>
+		<header> 
+			<div class="headersection container clear">
+				<div class="logo clear">
+					<img src="img/file (1).png" alt="" />
+					<div class="logocontent">
+						<h2>PROJUKTIDANA</h2>
+						<p>Technology wins the world !</p>
+					</div>
+				</div>
+				<div class="social"> 
+					<ul>
+						<li><a href="https://www.facebook.com/hossain.nahid.94"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+						<li><a href="https://www.facebook.com/hossain.nahid.94"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+						<li><a href="https://www.facebook.com/hossain.nahid.94"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+						<li><a href="https://www.facebook.com/hossain.nahid.94"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+					</ul>
+				</div>
+			</div>
+		</header>
+		
+		<nav> 
+			<div class="navsection container "> 
+				<ul>
+					<li><a id="active" href="index.html">HOME</a></li>
+					<li><a href="about.html">ABOUT</a></li>
+					<li><a href="contact.html">CONTACT</a></li>
+					<li><a href="#">TUTORIAL</a> 
+					
+						<ul>
+							<li><a href="">HTML</a></li>
+							<li><a href="">CSS</a></li>
+							<li><a href="">JAVASCRIPT</a></li>
+							<li><a href="">BOOTSTRAP</a></li>
+							<li><a href="">PHP</a></li>
+							
+						</ul>
+					
+					</li>
+					<li><a href="http://www.projuktidana.blogspot.com">Blog</a></li>
+					
+				</ul>
+			</div>
+		</nav>
+		
+		<div class="slidersection container clear"> 
+			<div id="slider">
+				<a href="#"><img src="img/slideshow/01.jpg" alt="nature 1" title="Nahid Hossain Developed this Website" /></a>
+				<a href="#"><img src="img/slideshow/02.jpg" alt="nature 2" title="Nahid Hossain Developed this Website" /></a>
+				<a href="#"><img src="img/slideshow/03.jpg" alt="nature 3" title="Nahid Hossain Developed this Website" /></a>
+				<a href="#"><img src="img/slideshow/04.jpg" alt="nature 4" title="Nahid Hossain Developed this Website" /></a>
+			</div>
+		
+		</div>
+		<div class="contentsection contentsection_container clear"> 
+			<article> 
+				<div class="maincontent clear"> 
+					<div class="samepost clear">
+						<h2>Our post title</h2>
+						<img src="img/windows-10.jpg" alt="windows-10 image"/>
+						<p>Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit</p>
+						<p>Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit</p>
+						<p>Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit</p>
+						<div class="readmore"> 
+							<a href="#">Read more</a>
+						</div>
+					</div>
+					<div class="samepost clear">
+						<h2>Our post title</h2>
+						<img src="img/23.jpg" alt="windows-10 image"/>
+						<p>Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit</p>
+						<p>Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit</p>
+						<p>Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit</p>
+						<div class="readmore"> 
+							<a href="#">Read more</a>
+						</div>
+					</div>
+				</div>
+			</article>
+			<aside> 
+				<div class="sidebar clear">
+					<div class="samesidebar">
+						<h2>Latest post</h2>
+						<ul>
+							<li><a href="#">Post title one will be go here</a></li>
+							<li><a href="#">Post title two will be go here</a></li>
+							<li><a href="#">Post title three will be go here</a></li>
+							<li><a href="#">Post title four will be go here</a></li>
+							<li><a href="#">Post title five will be go here</a></li>
+							
+						</ul>
+					</div>
+					<div class="samesidebar">
+						<h2>Sidebar header</h2>
+						<p>Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
+						<p>Ut wisi enim ad minim veniam, quis nostrud exerci tation</p>
+					</div><div class="samesidebar">
+						<h2>Sidebar header</h2>
+						<p>Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
+						<p>Ut wisi enim ad minim veniam, quis nostrud exerci tation</p>
+					</div>
+				</div>
+			</aside>
+			
+		</div>
+		<footer> 
+			<div class="footersection container clear">
+				<div class="footermenu clear"> 
+					<ul>
+						<li><a href="#">HOME</a></li>
+						<li><a href="#">ABOUT</a></li>
+						<li><a href="#">CONTACT</a></li>
+						<li><a href="#">PRIVACY</a></li>
+					</ul>
+				</div>
+				<p>Copyright: &copy; 2016 Nahid Website All Right Reserved</p>
+			</div>
+		</footer>
+		
+		
+		
+		<script type="text/javascript" src="js/scrolltop.js"></script>
+
+
+		
+
+
+	</body>
+</html>
